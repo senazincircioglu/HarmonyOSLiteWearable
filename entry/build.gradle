@@ -1,0 +1,35 @@
+apply plugin: 'com.huawei.ohos.hap'
+
+ohos {
+    signingConfigs {
+        debug {
+            storeFile file('C:/Users/s00612647/DevEcoStudioProjects/senaDemoProject/key1.p12')
+            storePassword '00000018DCE4E8371B8AB9455D0E23B0C0435B16B80F56ABF4F02D9C1424BDCCD528F90E69828975'
+            keyAlias 'key1'
+            keyPassword '000000187BC17A4B64ED735A217F9D3CA22C4F76871B122A4F32363E2478575F548B4233C5A291F6'
+            signAlg 'SHA256withECDSA'
+            profile file('C:/Users/s00612647/Downloads/senaDemoDebug.p7b')
+            certpath file('C:/Users/s00612647/Downloads/harmonycsr.cer')
+        }
+        release {
+            storeFile file('C:/Users/s00612647/DevEcoStudioProjects/senaDemoProject/key1.p12')
+            storePassword '000000184953870563AF10742D2EB7A2DC9AC6E4E38FB6A6D09DB553344950525ED0710E827D3773'
+            keyAlias 'key1'
+            keyPassword '000000188692FE0D19C7D40CFC8389E09C20CA3F51A3A02C6C6238A1AF271A7DD43767FA93FAF69A'
+            signAlg 'SHA256withECDSA'
+            profile file('C:/Users/s00612647/Downloads/senaDemoDebug.p7b')
+            certpath file('C:/Users/s00612647/Downloads/harmonycsr.cer')
+        }
+    }
+
+    compileSdkVersion 3
+    defaultConfig {
+        compatibleSdkVersion 3
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar', '*.har'])
+    testCompile'junit:junit:4.12'
+
+}

@@ -1,0 +1,10 @@
+<div class="container">
+    <text class="title">Step</text>
+    <text class="title">Speed Calculator</text>
+    <text class="subtitlel1">Please click 'Start'</text>
+
+    <text class="subtitlel2">to start calculating speed</text>
+    <input class="button" type="button" value="Start"  onclick="start"></input>
+
+</div>
+

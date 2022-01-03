@@ -1,0 +1,37 @@
+{
+	"agcgw_all":{
+		"CN":"connect-drcn.dbankcloud.cn",
+		"CN_back":"connect-drcn.hispace.hicloud.com",
+		"DE":"connect-dre.dbankcloud.cn",
+		"DE_back":"connect-dre.hispace.hicloud.com",
+		"RU":"connect-drru.dbankcloud.cn",
+		"RU_back":"connect-drru.hispace.hicloud.com",
+		"SG":"connect-dra.dbankcloud.cn",
+		"SG_back":"connect-dra.hispace.hicloud.com"
+	},
+	"client":{
+		"cp_id":"5190090000030145348",
+		"product_id":"737518067793777724",
+		"client_id":"771074797688867648",
+		"client_secret":"[!00C5D19B2A6392063C9CDB8EC4D1AC26FE3B6D468107608A3FA8C08F56187DF31C0263BA4D2717D64E452F8F25A9418CC6ADAE5AE647F42DD23C18C03F9238B19AB568264B3EA123E2D7B24CD5A6205492DE15F4DBEEA3F85D10C723829708B27A]",
+		"project_id":"737518067793777724",
+		"app_id":"105033853",
+		"api_key":"[!0066330BAE2180B27BD98BAAD0DC434667DA278AC4F95474805997BCE4D4BD8EAE91514CF5438BED60001EEEC85E35E2AFE3A68590662BD0DEBB27D0A070972015C52DA0EDCDC7053EE6F8E30443EFE32455C52787E5150F0A62A2B1871F5E79245B32CCF4112534AF530B3BF37B5ACB6FBD82C042133D1C1137C57F5C342A5258]",
+		"package_name":"com.example.senademoproject"
+	},
+	"oauth_client":{
+		"client_id":"105033853",
+		"client_type":30
+	},
+	"app_info":{
+		"app_id":"771075330390633344",
+		"package_name":"com.example.senademoproject"
+	},
+	"code":{
+		"code1":"0B38C62F52E86FF8273CDFB856BAE03A",
+		"code2":"20068A3C000A68940A7FF83AD8A0E380",
+		"code3":"6433AB62DDEF3F968BFEB60CB849E943",
+		"code4":"A66DB5C8267EE4CD219E71E5B6B7E9D3"
+	},
+	"configuration_version":"3.0"
+}

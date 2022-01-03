@@ -1,0 +1,41 @@
+.container {
+    width: 454px;
+    height: 454px;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+   background-color: darkblue;
+}
+.title {
+    font-size: 38px;
+    selected-font-size: 0px;
+    font-family: HYQiHei-65S;
+    color:lightgreen;
+}
+.subtitlel1{
+    font-size: 30px;
+    justify-content: center;
+    color: lightgray;
+    margin-top: 20px;
+}
+.subtitlel2{
+    font-size: 30px;
+    text-align: center;
+    color: lightgray;
+}
+.image{
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.button{
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    margin-top: 50px;
+    background-color: orangered;
+    color: darkblue;
+}

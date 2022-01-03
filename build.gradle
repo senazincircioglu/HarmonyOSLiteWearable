@@ -1,0 +1,48 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+apply plugin: 'com.huawei.ohos.app'
+
+ohos {
+    signingConfigs {
+        release {
+            storeFile file('C:/Users/s00612647/DevEcoStudioProjects/senaDemoProject/key1.p12')
+            storePassword '000000180F98496E4FE67FD32B6AC5D0A96AC9E5941A2F5C4921EA8A9F22DE74FD86B878F02A4405'
+            keyAlias 'key1'
+            keyPassword '000000183BF781F7F5F26DF509E4F4F4F4F5B059E582584956956B3B05C59F357A08D9C3C5683707'
+            signAlg 'SHA256withECDSA'
+            profile file('C:/Users/s00612647/Downloads/senaDemoDebug.p7b')
+            certpath file('C:/Users/s00612647/Downloads/harmonycsr.cer')
+        }
+
+    }
+    compileSdkVersion 3
+    defaultConfig {
+        compatibleSdkVersion 3
+    }
+}
+	
+buildscript {
+    repositories {
+        maven {
+            url 'https://mirrors.huaweicloud.com/repository/maven/'
+        }
+        maven {
+            url 'https://developer.huawei.com/repo/'
+        }
+		jcenter()
+    }
+    dependencies {
+        classpath 'com.huawei.ohos:hap:2.4.0.1'
+    }
+}
+
+allprojects {
+    repositories {
+        maven {
+            url 'https://mirrors.huaweicloud.com/repository/maven/'
+        }
+        maven {
+            url 'https://developer.huawei.com/repo/'
+        }
+		jcenter()
+    }
+}

@@ -1,0 +1,14 @@
+<div class="container" onswipe="touchMove">
+<text class="title">Distance</text>
+    <text class="subtitle">{{step}}</text>
+    <div class="seperator" ></div>
+
+<text class="title">Displacement</text>
+    <text class="subtitle">{{displacement}}</text>
+
+    <div class="seperator" ></div>
+
+<text class="title">Speed</text>
+    <text class="subtitle">{{speed}}</text>
+
+</div>

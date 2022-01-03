@@ -1,0 +1,64 @@
+{
+  "app": {
+    "bundleName": "com.example.senademoproject",
+    "vendor": "example",
+    "version": {
+      "code": 1,
+      "name": "1.0"
+    },
+    "apiVersion": {
+      "compatible": 3,
+      "target": 3
+    }
+  },
+  "reqPermissions": [
+    {
+      "name": "ohos.permission.LOCATION",
+      "reason": "get user's location",
+      "usedScene": {
+        "ability": [
+          "default"
+        ],
+        "when": "always"
+      }
+    },
+    {
+      "name": "ohos.permission.ACTIVITY_MOTION",
+      "reason": "get user's location",
+      "usedScene": {
+        "ability": [
+          "default"
+        ],
+        "when": "always"
+      }
+    }
+  ],
+  "deviceConfig": {},
+  "module": {
+    "deviceType": [
+      "liteWearable"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry"
+    },
+    "abilities": [
+      {
+        "name": "default",
+        "icon": "$media:icon",
+        "label": "senaDemoProject",
+        "type": "page"
+      }
+    ],
+    "js": [
+      {
+        "pages": [
+          "pages/index/index",
+          "pages/calculateSpeed/calculateSpeed"
+        ],
+        "name": "default"
+      }
+    ]
+  }
+}
